@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en línea</title>
+    <link rel="stylesheet" href="style.css"> <!--CSS-->
+
+</head>
+<body>
+    <header>
+        <h1>Web interactiva Caso 1 _ UD3</h1>
+    </header>
+    <main>
+        <div class="centro">
+            <!--Poner en mayúsculas un texto-->
+            <div class="elemento">
+                <h3>Haz click en el botón para poner en mayúsculas el texto:</h3>
+                <p id="textoModificar">
+                    Texto a modificar
+                </p>
+                <button onclick="modificarTexto()">Mayúsculas</button>
+            </div>
+            <!--Fecha actual-->
+            <div class="elemento">
+                <h3>Fecha actual:</h3>
+                <p id="fecha"></p>
+            </div>
+        </div>
+
+        <!--Botones nueva ventana-->
+        <div class="centrar">
+            <button id="abrirVentanaBtn">Abrir nueva ventana</button>
+            <button id="cambiarTamañoBtn">Cambiar tamaño ventana</button>
+        </div>
+
+        <!--Formulario-->
+       <div class="centrar">
+            <div class="formulario">
+                <form id="miFormulario">
+                    <label for="nombre">Escribe tu nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <p id="cambio"></p>
+            </div>
+       </div>
+   
+    
+    </main>
+</body>
+<script src="script.js"></script> <!--Javascript-->
+</html>
